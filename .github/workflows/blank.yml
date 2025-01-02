@@ -11,7 +11,9 @@ jobs:
       greeting: hello
     steps:
       - name: hii
-        run: echo "$greeting $cloud ${{ github.repository	 }}"
+        run: |
+           echo "$greeting $cloud ${{ github.repository	}}"
+           echo "$greeting $cloud ${{ secrets.pro_id }}"
       
       
     
