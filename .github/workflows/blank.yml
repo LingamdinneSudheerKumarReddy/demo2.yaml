@@ -13,7 +13,7 @@ jobs:
       - name: hii
         run: |
            echo "$greeting $cloud ${{ github.repository	}}"
-           echo "$greeting $cloud ${{ secrets.pro_id }}"
+           echo "$greeting $cloud ${{ secrets.pro_user }}"
       
       
     
