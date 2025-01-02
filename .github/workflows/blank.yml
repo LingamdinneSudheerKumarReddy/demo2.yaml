@@ -11,7 +11,7 @@ jobs:
       greeting: hello
     steps:
       - name: hii
-        run: echo "$greeting $cloud"
+        run: echo "$greeting $cloud ${{ var.project_id }}"
       
       
     
