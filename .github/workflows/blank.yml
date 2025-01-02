@@ -11,7 +11,7 @@ jobs:
       greeting: hello
     steps:
       - name: hii
-        run: echo "$greeting $cloud ${{ vars.project_id }}"
+        run: echo "$greeting $cloud ${{ github.repository	 }}"
       
       
     
